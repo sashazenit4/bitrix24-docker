@@ -20,7 +20,7 @@ if [ "$GROUP_ID" == "0" ]; then
 fi
 
 
-export DOCKER_COMPOSE_CMD="docker-compose";
+export DOCKER_COMPOSE_CMD="docker compose";
 
 if ! command -v docker-compose &> /dev/null
 then
