@@ -1,4 +1,4 @@
-FROM mysql:5.7
+FROM mysql:8.0
 
 ARG USER_ID='1000'
 ARG USER_ID=${USER_ID}
